@@ -28,12 +28,12 @@ section {
   padding-bottom: 90px;
 }
 section.background-gray-lighter {
-  background: #cdcdcd;
+  background: #f6d2d3;
 }
 section.background-gray-lightest {
   background: #f7f7f7;
-  border-top: solid 1px #cdcdcd;
-  border-bottom: solid 1px #cdcdcd;
+  border-top: solid 1px #f6d2d3;
+  border-bottom: solid 1px #f6d2d3;
 }
 section.background-secondary {
   background: #60c5ba;
@@ -105,7 +105,7 @@ section.background-secondary {
   color: #999999;
 }
 .text-gray-lighter {
-  color: #cdcdcd;
+  color: #f6d2d3;
 }
 @media (max-width: 991px) {
   .text-center-mobile {
@@ -1236,7 +1236,7 @@ STYLE SWITCHER FOR DEMO
   bottom: 240px;
   left: 0;
   background: #fff;
-  border: solid 1px #cdcdcd;
+  border: solid 1px #f6d2d3;
   z-index: 2000;
 }
 #style-switch h4 {
@@ -1256,7 +1256,7 @@ STYLE SWITCHER FOR DEMO
 }
 .nav > li > a:hover,
 .nav > li > a:focus {
-  background-color: #cdcdcd;
+  background-color: #f6d2d3;
 }
 .nav > li.disabled > a {
   color: #999999;
@@ -1268,25 +1268,25 @@ STYLE SWITCHER FOR DEMO
 .nav .open > a,
 .nav .open > a:hover,
 .nav .open > a:focus {
-  background-color: #cdcdcd;
+  background-color: #f6d2d3;
   border-color: #ef5285;
 }
 .nav-tabs {
-  border-bottom: 1px solid #dddddd;
+  border-bottom: 1px solid #f6d2d3;
 }
 .nav-tabs > li > a {
   line-height: 1.55;
   border-radius: 0 0 0 0;
 }
 .nav-tabs > li > a:hover {
-  border-color: #cdcdcd #cdcdcd #dddddd;
+  border-color: #f6d2d3 #f6d2d3 #f6d2d3;
 }
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:hover,
 .nav-tabs > li.active > a:focus {
   color: #555555;
   background-color: #f4f4f4;
-  border: 1px solid #dddddd;
+  border: 1px solid #f6d2d3;
 }
 .nav-pills > li > a {
   border-radius: 0;
@@ -1303,11 +1303,11 @@ STYLE SWITCHER FOR DEMO
 .nav-tabs-justified > .active > a,
 .nav-tabs-justified > .active > a:hover,
 .nav-tabs-justified > .active > a:focus {
-  border: 1px solid #dddddd;
+  border: 1px solid #f6d2d3;
 }
 @media (min-width: 768px) {
   .nav-tabs-justified > li > a {
-    border-bottom: 1px solid #dddddd;
+    border-bottom: 1px solid #f6d2d3;
     border-radius: 0 0 0 0;
   }
   .nav-tabs-justified > .active > a,
@@ -1632,7 +1632,7 @@ hr {
   margin-top: 24px;
   margin-bottom: 24px;
   border: 0;
-  border-top: 1px solid #cdcdcd;
+  border-top: 1px solid #f6d2d3;
 }
 .progress {
   overflow: hidden;
@@ -1850,7 +1850,7 @@ label {
 /* pager*/
 .pager {
   margin: 24px 0;
-  border-top: solid 1px #cdcdcd;
+  border-top: solid 1px #f6d2d3;
   padding-top: 24px;
   text-transform: uppercase;
   letter-spacing: 0.1em;
@@ -1894,7 +1894,7 @@ label {
   text-decoration: none;
   color: #ef5285;
   background-color: #ffffff;
-  border: 1px solid #dddddd;
+  border: 1px solid #f6d2d3;
 }
 .pagination > li:first-child > a,
 .pagination > li:first-child > span {
@@ -1913,7 +1913,7 @@ label {
 .pagination > li > span:focus {
   color: #ef5285;
   background-color: #fcdee8;
-  border-color: #dddddd;
+  border-color: #f6d2d3;
 }
 .pagination > .active > a,
 .pagination > .active > span,
@@ -1934,7 +1934,7 @@ label {
 .pagination > .disabled > a:focus {
   color: #999999;
   background-color: #ffffff;
-  border-color: #dddddd;
+  border-color: #f6d2d3;
 }
 /* responsive utilities */
 @media (max-width: 767px) {
