@@ -1,11 +1,11 @@
 body {
   padding-top: 15px;
     padding-left: 15px;
-    background-color: #eee4ed;
+    background-color: #f2f2f2;
     font-family: "Roboto", Helvetica, Arial, sans-serif;
     font-size: 16px;
     line-height: 1.55;
-    color: #235081;
+    color: #0c5a87;
 }
 .text-center {
     padding-top: 20px;
@@ -28,9 +28,13 @@ body {
     border-color: transparent;
 }
 
+.h1,h1{
+    color: #7f2932;
+}
+
 
 .nav li a {
-    color: #555555;
+    color: #ef5285;
 }
 .nav li:before {
     font-family: 'FontAwesome';
@@ -133,3 +137,27 @@ body {
     }
 }
 
+*, *:before, *:after {box-sizing:  border-box !important;}
+
+
+
+.rowGallery {
+    -moz-column-width: 25em;
+    -webkit-column-width: 25em;
+    -moz-column-gap: .5em;
+    -webkit-column-gap: .5em;
+
+}
+
+.panel {
+    display: inline-block;
+    margin:  .5em;
+    padding:  0;
+    width:98%;
+}
+
+.panel-default > .panel-heading{
+    background-color: #BFE6DA;
+    border-color: #595959;
+        color: #595959;
+}
