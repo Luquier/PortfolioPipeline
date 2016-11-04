@@ -1,11 +1,18 @@
+:root {
+    --navy: #3c5254;
+    --green: #829a44;
+    --biege: #fff3dc;
+    --purple: #7c5a63;
+}
+
 body {
   padding-top: 15px;
     padding-left: 15px;
-    background-color: #f2f2f2;
+    background-color: var(--navy);
     font-family: "Roboto", Helvetica, Arial, sans-serif;
     font-size: 16px;
     line-height: 1.55;
-    color: #0c5a87;
+    color: var(--biege);
 }
 .text-center {
     padding-top: 20px;
@@ -29,12 +36,12 @@ body {
 }
 
 .h1,h1{
-    color: #7f2932;
+    color: var(--green);
 }
 
 
 .nav li a {
-    color: #ef5285;
+    color: var(--green);
 }
 .nav li:before {
     font-family: 'FontAwesome';
@@ -42,18 +49,18 @@ body {
     color: #999999;
 }
 .nav li.active a {
-    color: #ef5285;
+    color:  var(--green);
     font-weight: bold;
 }
 .nav li.active:before {
-    color: #ef5285;
+    color: var(--green);
 }
 .nav li:hover a {
     text-decoration: none;
-    color: #ef5285;
+    color: var(--green);
 }
 .nav li:hover:before {
-    color: #ef5285;
+    color: var(--green);
 }
 
 
@@ -154,10 +161,22 @@ body {
     margin:  .5em;
     padding:  0;
     width:98%;
+    background-color: var(--purple);
 }
 
 .panel-default > .panel-heading{
-    background-color: #BFE6DA;
-    border-color: #595959;
-        color: #595959;
+    background-color: var(--purple);
+    border-color: transparent;
+        color: var(--biege);
+}
+
+.panel-body{
+
+    background-color: var(--purple);
+    color: var(--biege);
+}
+
+.thumbnail{
+    background-color: var(--purple);
+    border: none;
 }
